@@ -27,6 +27,8 @@ export default function RootLayout(){
          <Stack.Screen name="meditate/[id]" options={{headerShown: false}}/>
          <Stack.Screen name="(modal)/adjust-meditation-duration" options={{headerShown: false, presentation:"modal"}}/>
          <Stack.Screen name="index" options={{headerShown: false}}/>
+         <Stack.Screen name="loginscreen" options={{headerShown: false}}/>
+         <Stack.Screen name="signupscreen" options={{headerShown: false}}/>
         </Stack>
         </TimerProvider>
     )
